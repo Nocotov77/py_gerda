@@ -1,0 +1,5 @@
+s = input().strip()
+n = int(input())
+m = int(input())
+k = int(input())
+print(s[n:m: - k])
