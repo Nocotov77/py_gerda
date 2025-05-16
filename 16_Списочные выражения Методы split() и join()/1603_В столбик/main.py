@@ -1,0 +1,1 @@
+[print('*' * int(d)) for d in input().strip()]
