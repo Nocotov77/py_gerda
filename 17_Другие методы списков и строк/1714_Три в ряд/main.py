@@ -51,7 +51,6 @@ def main():
             turn = 1
 
         else:
-            # Ход пользователя:
             valid_move = False
             while not valid_move:
                 try:
@@ -73,7 +72,6 @@ def main():
             board[pos] = color
             print(f"Your step {pos} {color}")
             print_board(board)
-
             if check_removal(board):
                 user_score += 1
                 print_board(board)
