@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw
 
 s = int(input())
 x0 = y0 = 70 * s / 2
-img = Image.new('RGB', (70 * s, 70 * s), (255, 255, 255))  # White background
+img = Image.new('RGB', (70 * s, 70 * s), (255, 255, 255))
 draw = ImageDraw.Draw(img)
 
 draw.ellipse((x0 - (35 * s), y0 - (35 * s), x0 + (35 * s), y0 + (35 * s)), (0, 112, 192))
